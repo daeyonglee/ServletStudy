@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>form</title>
+</head>
+<body>
+<form method="get" action="regist.do" enctype="application/x-www-form-urlencoded">
+  <label>이름 : <input type="text" name="name"></label><br>
+  <label>비번: <input type="password" name="passwd"></label><br>
+  <label>좋아하는 축구팀: 
+    <select name="teams">
+      <option>Manchester United</option>
+      <option>Tottenham Hotspur</option>
+      <option>Manchester City</option>
+      <option>Liverpool</option>
+    </select>
+  </label><br>
+  <label><input type="checkbox" name="fruit" value="수박">수박</label>
+  <label><input type="checkbox" name="fruit" value="사과">사과</label>
+  <label><input type="checkbox" name="fruit" value="귤">귤</label><br>
+  <input type="submit" value="전송" />
+  <input type="reset" value="취소" />
+</form>
+</body>
+</html>
